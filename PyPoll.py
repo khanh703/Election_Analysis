@@ -7,7 +7,6 @@ file_to_load = os.path.join(".", "election_results.csv")
 file_to_save = os.path.join(".", "election_analysis.txt")
 total_votes = 0
 candidates = {}
-candidate_options = []
 winning_candidate = ""
 winning_count = 0
 winning_percentage = 0
