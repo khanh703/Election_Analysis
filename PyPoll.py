@@ -23,7 +23,7 @@ with open(file_to_load) as election_data:
         # Initialize candidate name and assign zero votes to start if candidate NOT IN dictionary
         candidate_name = row[2]
         if candidate_name not in candidates.keys():
-            candidates[row[2]] = 0
+            candidates[candidate_name] = 0
         
         # Add a vote count for each candidate.
         candidates[candidate_name] += 1
