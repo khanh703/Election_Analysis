@@ -37,23 +37,30 @@ Using Python code, a set tasks to perform:
 --- 
 
 **County Votes**: 
-Jefferson: 10.5% (38855) 
+
+Jefferson: 10.5% (38855)
+
 Denver: 82.8% (306055) 
+
 Arapahoe: 6.7% (24801) 
 
 ---
 
-**Largest County Turnout:** Denver with 306,055, (82.78)%
+### Largest County Turnout: Denver with 306,055, (82.78)%
 
 
-**Charles Casper Stockham:** 23.0% (85,213)
-**Diana DeGette:** 73.8% (272,892)
-**Raymon Anthony Doane:** 3.1% (11,606)
+Charles Casper Stockham: 23.0% (85,213)
+
+Diana DeGette: 73.8% (272,892)
+
+Raymon Anthony Doane: 3.1% (11,606)
 
 ---
 
 Winner: Diana DeGette
+
 Winning Vote Count: 272,892
+
 Winning Percentage: 73.8%
 
 ---
