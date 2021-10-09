@@ -3,12 +3,14 @@ import os
 import csv
 
 # Open the data file.
-file_to_load = os.path.join(".", "election_results.csv")
-file_to_save = os.path.join(".", "election_analysis.txt")
+# Add a variable to load a file from a path.
+file_to_load = os.path.join(".", "resources", "election_results.csv")
+# Add a variable to save the file to a path.
+file_to_save = os.path.join(".", "analysis", "election_analysis.txt")
 total_votes = 0
 candidates = {}
-winning_candidate = ""
-winning_count = 0
+winning_candidate:str = ""
+winning_count:int = 0
 winning_percentage = 0
 
 with open(file_to_load) as election_data:
